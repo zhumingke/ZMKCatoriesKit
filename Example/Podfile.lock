@@ -1,0 +1,16 @@
+PODS:
+  - ZMKCatoriesKit (0.1.0)
+
+DEPENDENCIES:
+  - ZMKCatoriesKit (from `../`)
+
+EXTERNAL SOURCES:
+  ZMKCatoriesKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZMKCatoriesKit: 69fc0218911f7b2248750530fb2eae12540936b9
+
+PODFILE CHECKSUM: e85ca945163448c9ed8c16c88cef801b63a79bf1
+
+COCOAPODS: 1.5.3

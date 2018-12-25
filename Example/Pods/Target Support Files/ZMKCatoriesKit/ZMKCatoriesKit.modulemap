@@ -1,0 +1,6 @@
+framework module ZMKCatoriesKit {
+  umbrella header "ZMKCatoriesKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
