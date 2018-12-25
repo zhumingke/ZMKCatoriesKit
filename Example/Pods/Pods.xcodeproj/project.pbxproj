@@ -11,7 +11,6 @@
 		076FE52EBB952B0F479808ADD327C139 /* UIColor+ColorChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ED954004FE6D1DDD65AD95B9EAEB03 /* UIColor+ColorChange.m */; };
 		0CB5B7DDFAE9C8D5EA4726EEAFECAACA /* ZMKCatoriesKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E939D883CB2D61FDDDCA5C85DFB6818C /* ZMKCatoriesKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		139BFAC3F1A5EE4A048B74D10DFDC222 /* UIImage+CQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7044707EC7CEAF3D3478BB8CE72C82E6 /* UIImage+CQExtension.m */; };
-		709BC9C042CB442188F955C44A646A64 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA15ED656EB5C15C622F3F9A65E8137 /* ReplaceMe.m */; };
 		7AAF80799BBE8B5DCBD1ADD71EE18CDE /* Pods-ZMKCatoriesKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57193F24969C864AF2013FF6BE3892AC /* Pods-ZMKCatoriesKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BFD0EF4908CE7AA875AE32DBCDA9DBC /* NSData+CQDataCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7964ACE838F1E0BC9923F8F8DAF99973 /* NSData+CQDataCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F96F49E8115FA2ABF26C76740E44611 /* NSString+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D9518F3F65BC934ADA6825CE3E8590 /* NSString+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -51,7 +50,6 @@
 		0DCFC662E62A0821AA32CED23523D16A /* ZMKCatoriesKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZMKCatoriesKit.modulemap; sourceTree = "<group>"; };
 		29D9518F3F65BC934ADA6825CE3E8590 /* NSString+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
 		2AC861884600DE47A06E565EBCD7DF31 /* NSString+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
-		2DA15ED656EB5C15C622F3F9A65E8137 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZMKCatoriesKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		382B5D04116D59CD618C0F5A26A16900 /* Pods-ZMKCatoriesKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMKCatoriesKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		43B4FCE812F182B1136F73E065CC9AC2 /* Pods-ZMKCatoriesKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMKCatoriesKit_Example-resources.sh"; sourceTree = "<group>"; };
 		4E9DEC55209C81EA8017A26843BCE4EC /* Pods-ZMKCatoriesKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMKCatoriesKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -149,7 +147,6 @@
 		3225A334273EB8193911988FB227A43F /* ZMKCatoriesKit */ = {
 			isa = PBXGroup;
 			children = (
-				2DA15ED656EB5C15C622F3F9A65E8137 /* ReplaceMe.m */,
 				65DF10698C8D24AEB3DAF86F792E17A8 /* categories */,
 				1DAD3F1C11C981B9310AD4D429435853 /* Pod */,
 				38608B7B8CF8519F2283FD3F91AA2226 /* Support Files */,
@@ -417,7 +414,6 @@
 			files = (
 				940159083E02A052F09177F47ECB5DAD /* NSData+CQDataCache.m in Sources */,
 				0261A7AE02B4A7CEF76DBF3FA6127746 /* NSString+Utils.m in Sources */,
-				709BC9C042CB442188F955C44A646A64 /* ReplaceMe.m in Sources */,
 				076FE52EBB952B0F479808ADD327C139 /* UIColor+ColorChange.m in Sources */,
 				139BFAC3F1A5EE4A048B74D10DFDC222 /* UIImage+CQExtension.m in Sources */,
 				FA5BA6022855C851B2DFBFF199132FF2 /* ZMKCatoriesKit-dummy.m in Sources */,
