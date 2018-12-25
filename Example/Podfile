@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZMKCatoriesKit_Example' do
+  pod 'ZMKCatoriesKit', :path => '../'
+
+  target 'ZMKCatoriesKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
